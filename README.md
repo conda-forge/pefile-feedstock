@@ -14,12 +14,15 @@ Summary: pefile is a Python module to read and work with PE (Portable Executable
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pefile-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pefile-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pefile-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pefile-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pefile/badges/version.svg)](https://anaconda.org/conda-forge/pefile)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pefile/badges/downloads.svg)](https://anaconda.org/conda-forge/pefile)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pefile-green.svg)](https://anaconda.org/conda-forge/pefile) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pefile.svg)](https://anaconda.org/conda-forge/pefile) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pefile.svg)](https://anaconda.org/conda-forge/pefile) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pefile.svg)](https://anaconda.org/conda-forge/pefile) |
 
 Installing pefile
 =================
