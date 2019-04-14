@@ -1,7 +1,7 @@
 {% set name = "pefile" %}
-{% set version = "2018.8.8" %}
+{% set version = "2019.4.14" %}
 {% set hash_type = "sha256" %}
-{% set hash = "4c5b7e2de0c8cb6c504592167acf83115cbbde01fe4a507c16a1422850e86cd6" %}
+{% set hash = "dfa244d99c00af7122514f724b47242df0dbc464366f973ce1ca9958490fb334" %}
 
 package:
   name: {{ name }}
@@ -15,10 +15,11 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
+    - pip
     - python
     - setuptools
   run:
