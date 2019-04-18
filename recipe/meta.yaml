@@ -1,7 +1,7 @@
 {% set name = "pefile" %}
-{% set version = "2019.4.14" %}
+{% set version = "2019.4.18" %}
 {% set hash_type = "sha256" %}
-{% set hash = "dfa244d99c00af7122514f724b47242df0dbc464366f973ce1ca9958490fb334" %}
+{% set hash = "a5d6e8305c6b210849b47a6174ddf9c452b2888340b8177874b862ba6c207645" %}
 
 package:
   name: {{ name }}
