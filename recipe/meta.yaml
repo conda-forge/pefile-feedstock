@@ -1,6 +1,6 @@
 {% set name = "pefile" %}
-{% set version = "2021.9.2" %}
-{% set hash = "9981fb6e7950ecb5dcf48a8b18f02375ac790d39fafc52ec4ee13730d40dc65a" %}
+{% set version = "2021.9.3" %}
+{% set hash = "344a49e40a94e10849f0fe34dddc80f773a12b40675bf2f7be4b8be578bdd94a" %}
 
 package:
   name: {{ name }}
